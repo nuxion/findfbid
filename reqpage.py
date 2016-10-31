@@ -26,5 +26,4 @@ def findpid(url):
     #print(code)#debug
 
 if __name__ == "__main__":
-    print(findpid("https://www.facebook.com/fotoclubcordoba.oficial"))
-    print(findpid("https://www.facebook.com/mariafernanda.barreno"))
+    print(findpid("https://www.facebook.com/cnn"))
