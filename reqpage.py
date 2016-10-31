@@ -8,7 +8,7 @@ def findpid(url):
     Parameters:
         `url`: string type, url to find.
         return: string type, id of face page. """
-    
+
     # setting headers and url to open
     headers = {'User-Agent': 'Mozilla/5.0'}
     payload = {'url':url}
@@ -26,4 +26,10 @@ def findpid(url):
     #print(code)#debug
 
 if __name__ == "__main__":
-    print(findpid("https://www.facebook.com/cnn"))
+    print(findpid("https://www.facebook.com/cnn")) 
+    
+    # if you want load a text file with the urls dir:
+    #file = open('sites.txt','r')
+    #for line in file:
+    #    print (line.strip())
+    #    print(findpid(line.strip()))
